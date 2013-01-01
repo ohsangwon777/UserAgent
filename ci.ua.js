@@ -1,4 +1,15 @@
-
+/**
+ * Library for cross browsing, client enviroments controll.
+ *
+ * While this is a rewrite, it is heavily inspired by google closure library:
+ *    
+ *    google closure liblary
+ *    Copyright (c) google Inc, Apache License, Version 2.0
+ *
+ * @copyright CyberImagination [All rights reserved]
+ * @licence MIT licence
+ * 
+ */
 (function(ci){
 
 	var _this = {
