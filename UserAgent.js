@@ -10,7 +10,7 @@
  * @licence MIT licence
  * 
  */
-(function(ci){
+(function(UserAgent){
 
 	var _this = {
 		//platform
@@ -53,7 +53,7 @@
 		isMac: false,
 		isX11: false,
 
-		documnetMode: undefined //IE specific
+		documnetMode: undefined //IE
 	};
 
 	var userAgentString = window.navigator.userAgent;
@@ -260,7 +260,10 @@
 	addUserAgentClass();
 
 	//regist _this object to global scope
-	if(!ci) window.ci = ci = {};
-	ci.ua = _this;
+	if(!UserAgent) {
+		window.UserAgent = _this;	
+	} else {
+		
+	}
 
-})(window.ci);
+})(window.UserAgent);
