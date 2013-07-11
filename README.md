@@ -1,4 +1,5 @@
-ci.ua.js
+UserAgent.js
 ===
 
-commit test
+For cross browsing, client enviroments controll.
+==
